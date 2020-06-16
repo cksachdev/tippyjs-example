@@ -10,7 +10,7 @@ type Props = {};
 type State = {
   helpText: string
 };
-export default class Help extends Component<Props, State> {
+export default class App extends Component<Props, State> {
   props: Props;
 
   constructor(props: Object) {
