@@ -1,0 +1,10 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.test {
+  background-color: tomato;
+  font-size: 20px;
+  font-weight: bold;
+}
