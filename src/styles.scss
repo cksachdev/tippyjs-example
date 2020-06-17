@@ -1,0 +1,51 @@
+$color-gray-900: #666666;
+$base-space: 10px;
+$color-white: #fff;
+$z-base-index: 1;
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.test {
+  background-color: tomato;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flexcontainer {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.flexitem {
+  width: 40%;
+  height: 40%;
+  border: 1px solid gray;
+}
+
+.tooltip-icon {
+  padding-right: 5px;
+}
+
+.hundred-width {
+  width: 100%;
+}
+
+.tooltip-text {
+  background-color: $color-gray-900;
+  border-radius: $base-space * 0.3;
+  color: $color-white;
+  display: inline-block;
+  font-size: $base-space * 1.2;
+  max-height: 300px;
+  max-width: 550px;
+  overflow-y: scroll;
+  padding: $base-space * 0.5;
+  position: fixed;
+  white-space: pre-line;
+  z-index: $z-base-index;
+}
